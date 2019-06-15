@@ -4,6 +4,7 @@ body {
   padding:0;
   font-family: 'Roboto', sans-serif;
   color:#525252;
+  background-color:#efefef;
 }
 
 header h1 {
@@ -59,11 +60,14 @@ footer>p {
 nav {
   height:80px;
   line-height:80px;
+  padding-top:30px;
 }
 
 nav .title {
   font-family: 'Roboto Slab', serif;
   font-size:18px;
+  border-bottom:3px solid #fff;
+  padding-bottom:5px;
 }
 
 nav ul {
@@ -82,11 +86,14 @@ nav a {
   color:inherit;
   text-decoration:none;
   font-size:14px;
+  padding-bottom:5px;
 }
 
 nav a:hover {
-  text-decoration:underline;
+  text-decoration:none;
+  border-bottom:3px solid #fff;
 }
+
 
 header {
   padding-top:150px;
@@ -96,9 +103,13 @@ header {
 
 main {
   width:1000px;
-  margin:auto;
+  padding-left:calc(50% - 500px);
+  padding-right:calc(50% - 500px);
+
   padding-top:40px;
   background-color:#fff;
+  padding-bottom:20px;
+  border-bottom:1px solid #ccc;
 }
 
 main section {
@@ -207,8 +218,8 @@ main img {
   }
 
   nav li {
-    margin-left:5px;
-    margin-right:5px;
+    margin-left:10px;
+    margin-right:10px;
   }
   .grid {
     grid-template-columns:auto;
