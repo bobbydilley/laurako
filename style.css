@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&display=swap');
 body {
   margin:0px 0px 180px 0px;
   padding:0;
@@ -18,13 +19,7 @@ h2 {
   font-size: 18px;
 }
 
-
-.small_header {
-  padding-top:50px;
-  padding-bottom:80px;
-}
-
-header, nav {
+header {
   overflow:hidden;
   margin:0;
   background-color:#2086D4;
@@ -33,6 +28,7 @@ header, nav {
   padding-left:calc(50% - 500px);
   padding-right:calc(50% - 500px);
   color:#FFF;
+  background-image: url('shattered-island.gif');
 }
 
 a {
@@ -60,14 +56,28 @@ footer>p {
 nav {
   height:80px;
   line-height:80px;
-  padding-top:30px;
 }
+
+header h1 {
+  font-weight:300;
+}
+
+header p {
+  font-weight:100;
+}
+
 
 nav .title {
   font-family: 'Roboto Slab', serif;
   font-size:18px;
-  border-bottom:3px solid #fff;
-  padding-bottom:5px;
+}
+
+
+section.rule {
+  border-top:1px solid #efefef;
+  padding-top:60px;
+  margin-top:60px;
+  margin-bottom:60px;
 }
 
 nav ul {
@@ -96,9 +106,13 @@ nav a:hover {
 
 
 header {
-  padding-top:150px;
-  padding-bottom:180px;
+  padding-top:30px;
+  padding-bottom:200px;
   text-align:center;
+}
+
+nav {
+  padding-bottom:130px;
 }
 
 main {
@@ -193,8 +207,8 @@ main img {
   }
 
   header {
-	padding-top:40px;
-	padding-bottom:70px;
+    padding-top:40px;
+    padding-bottom:70px;
   }
 
   .left {
@@ -202,7 +216,8 @@ main img {
   }
 
   nav {
-	 padding-top:20px;
+   padding-top:20px;
+   padding-bottom:30px;
 	line-height:inherit;
   }
 
