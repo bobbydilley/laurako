@@ -55,6 +55,14 @@ header {
   padding-bottom:200px;
 }
 
+a.title img {
+  margin-top:17px;
+}
+
+a.title img:hover {
+  text-decoration:none;
+}
+
 header.big-header h1 {
   margin-top:20px;
 }
