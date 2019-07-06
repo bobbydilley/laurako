@@ -31,8 +31,8 @@
         ctx.beginPath();
         var slant = 150;
         ctx.moveTo(0, 0);
-        ctx.lineTo((header.clientWidth / 2) , 0);
-        ctx.lineTo((header.clientWidth / 2) - slant * 4,header.clientHeight);
+        ctx.lineTo((header.clientWidth / 2) + slant, 0);
+        ctx.lineTo((header.clientWidth / 2) - slant,header.clientHeight);
         ctx.lineTo(0, header.clientHeight);
         ctx.lineTo(0, 0);
         ctx.closePath();
