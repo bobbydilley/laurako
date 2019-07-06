@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 body {
   margin:0px 0px 180px 0px;
   padding:0;
@@ -9,14 +9,32 @@ body {
 }
 
 header h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Playfair Display', serif;
   display:block;
   color:#FFF;
   font-size:50px;
   font-weight:400;
+  margin-bottom:0;
 }
 h2 {
   font-size: 18px;
+}
+
+.button {
+  border:1px solid #fff;
+  border-radius:3px;
+  padding:10px;
+  text-decoration:none;
+  color:#fff;
+  margin-top:15px;
+  display:inline-block;
+  font-size:14px;
+}
+
+.button:hover {
+  text-decoration:none;
+  background-color:#fff;
+  color:#525252;
 }
 
 header {
@@ -28,7 +46,8 @@ header {
   padding-left:calc(50% - 500px);
   padding-right:calc(50% - 500px);
   color:#FFF;
-  background-image: url('images/fancy-pants.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 a {
