@@ -148,8 +148,17 @@ header {
   text-align:center;
 }
 
-nav {
-  padding-bottom:130px;
+header.big-header h1 {
+  padding-top:130px;
+}
+
+header h1 {
+  padding-top:35px;
+  padding-bottom:0;
+}
+
+header.small_header {
+  padding-bottom:70px;
 }
 
 main {
@@ -250,6 +259,21 @@ main img {
 
   .left {
     display:none;
+    float:none;
+   text-align:center !important;
+   margin:0;
+   padding:0;
+   display:block;
+    width:100%;
+    padding-top:20px;
+    margin-bottom:10px;
+  }
+
+  .left img{
+    width:50px;
+    padding:0;
+    margin:0;
+    height:auto;
   }
 
   nav {
