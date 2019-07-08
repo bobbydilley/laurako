@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 body {
   margin:0px 0px 180px 0px;
   padding:0;
@@ -10,6 +10,8 @@ body {
 
 header h1 {
   font-family: 'Playfair Display', serif;
+
+
   display:block;
   color:#FFF;
   font-size:50px;
@@ -95,12 +97,13 @@ nav {
 }
 
 header h1 {
-  font-weight:300;
   margin-top:0;
+  font-weight:700;
 }
 
 header p {
   font-weight:100;
+  letter-spacing:4px;
 }
 
 
