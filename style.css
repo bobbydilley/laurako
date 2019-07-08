@@ -60,7 +60,7 @@ a.title img {
 }
 
 a.title:hover {
-  text-decoration:none;
+  border:0;
 }
 
 header.big-header h1 {

@@ -1,7 +1,9 @@
 
       var c1 = getRandomColor();
       var c2 = getRandomColor();
-
+      while(c1 == c2) {
+              c2 = getRandomColor();
+            }
       window.addEventListener('DOMContentLoaded', (event) => {
         document.body.onresize = function(){
           draw();
@@ -34,12 +36,10 @@
       }
 
       function getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
+        var colours = ['#52B5D5', '#DD2A59', '#FEB349', '#55C491', '#717CD6'];
+
+
+        return colours[Math.floor(Math.random() * 5)];
       }
 
 function scrollToView() {
