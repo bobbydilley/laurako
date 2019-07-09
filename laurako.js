@@ -36,10 +36,10 @@
       }
 
       function getRandomColor() {
-        var colours = ['#52B5D5', '#DD2A59', '#FEB349', '#55C491', '#717CD6'];
+        var colours = ['#52B5D5', '#DD2A59', '#FEB349'];
 
 
-        return colours[Math.floor(Math.random() * 5)];
+        return colours[Math.floor(Math.random() * 3)];
       }
 
 function scrollToView() {
