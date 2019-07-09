@@ -36,7 +36,7 @@
       }
 
       function getRandomColor() {
-        var colours = ['#52B5D5', '#DD2A59', '#FEB349'];
+        var colours = ['#52B5D5', '#DD2A59', '#fd9b1a'];
 
 
         return colours[Math.floor(Math.random() * 3)];
