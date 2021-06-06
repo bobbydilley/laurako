@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 body {
-  margin:0px 0px 180px 0px;
+  margin:0;
   padding:0;
   font-family: 'Roboto', sans-serif;
   color:#525252;
-  background-color:#efefef;
 }
 
 header h1 {
@@ -13,7 +12,7 @@ header h1 {
 
 
   display:block;
-  color:#FFF;
+  color:#525252;
   font-size:50px;
   font-weight:400;
   margin-bottom:0;
@@ -41,24 +40,19 @@ h2 {
 }
 
 header {
-  overflow:hidden;
   margin:0;
-  background-color:#2086D4;
   display:block;
   width:1000px;
   padding-left:calc(50% - 500px);
   padding-right:calc(50% - 500px);
-  color:#FFF;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-color:white;
 }
 
-.big-header {
-  padding-bottom:200px;
-}
+
 
 a.title img {
   margin-top:17px;
+
 }
 
 a.title:hover {
@@ -80,12 +74,10 @@ a:hover {
 
 footer {
   width:100%;
-  margin:0px 0px 60px 0px;
+  margin:60px 0;
   display:block;
-  position:fixed;
-  bottom:0px;
-  z-index: -1;
 }
+
 footer>p {
   font-size:14px;
   text-align: center;
@@ -151,7 +143,7 @@ nav a:hover {
 
 header {
   padding-top:30px;
-  padding-bottom:140px;
+  padding-bottom:30px;
   text-align:center;
 }
 
@@ -172,11 +164,11 @@ main {
   width:1000px;
   padding-left:calc(50% - 500px);
   padding-right:calc(50% - 500px);
-
+display:block;
   padding-top:40px;
   background-color:#fff;
   padding-bottom:20px;
-  border-bottom:1px solid #ccc;
+  margin-bottom:40px;
 }
 
 main section {
